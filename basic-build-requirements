@@ -1,0 +1,2 @@
+//Whenever bulding a software or app from a github repository from sractch,these are the Basic build requirements :
+sudo apt install build-essential git cmake libsndfile1-dev libjack-jackd2-dev libfftw3-dev emacs libudev-dev
