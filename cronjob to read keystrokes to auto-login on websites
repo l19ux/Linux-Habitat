@@ -1,0 +1,4 @@
+``` lynx -accept_all_cookies -cmd_script=/your/keystroke-file```
+
+This command will tell lynx to read keystrokes from the specified file - which can be used in a cronjob to auto-login on websites that give you points for logging in once a day *cough cough* (which is why I used -accept_all_cookies). 
+For creating your keystroke file, use: lynx -cmd_log yourfile
